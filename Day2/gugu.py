@@ -17,7 +17,7 @@ def divide(a: int, b: int) -> float:
 
 
 def gugudan():
-    print("\n".join([" ".join([f"{i}x{j}={i * j}" for j in range(1, 10)]) for i in range(1, 10)]))
+    print("\n".join([" ".join([f"{i}x{j}={i * j:2}" for j in range(1, 10)]) for i in range(1, 10)]))
 
 
 # 테스트 코드
